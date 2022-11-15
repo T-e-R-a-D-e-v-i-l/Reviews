@@ -110,6 +110,10 @@ h2 {
   font-size: 28px;
   font-weight: 700;
   padding: 15px;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 22px;
+  }
 }
 
 h3 {
@@ -117,6 +121,10 @@ h3 {
   font-weight: 600;
   font-style: italic;
   color: rgba(24, 16, 9, 0.895);
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 18px;
+  }
 }
 
 .reviewText {
@@ -125,6 +133,10 @@ h3 {
   padding: 15px;
   line-height: normal;
   font-style: oblique;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 16px;
+  }
 }
 
 .image {
@@ -134,6 +146,11 @@ h3 {
   width: 40%;
   border: 10px solid var(--orangeColor);
   border-radius: 50%;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 50%;
+    border: 5px solid var(--orangeColor);
+  }
 }
 
 img {
